@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="containter-tasks">
+        <div class="header">
+          <div class="title">
+            <h1 class="member">Hey Tamara</h1>
+            <p class="notification" id="today">today you have 12 tasks</p>
+          </div>
+          <a href="create.html"
+            ><img class="btn-member" src="asse/plus.png"
+          /></a>
+        </div>
+        <div class="task-chart">
+          <button class="created-task shape">
+            <a href="search.html"></a>
+            <h3 id="created">0</h3>
+            <p class="p-task">tasks created</p>
+          </button>
+          <button class="remain-task shape">
+            <h3 id="left_class">0</h3>
+            <p class="p-task">task left</p>
+          </button>
+          <button class="work shape">
+            <h3>work</h3>
+            <p class="p-task" id="work">0 task</p>
+            <div id="bt" class="task workc" checked></div>
+          </button>
+          <button class="personal shape">
+            <h3>personal</h3>
+            <p class="p-task" id="personal">0 task</p>
+            <div class="task personalc"></div>
+          </button>
+          <button class="shopping shape">
+            <h3>shopping</h3>
+            <p class="p-task" id="shop">0 task</p>
+            <div class="task shoppingc"></div>
+          </button>
+          <button class="heath shape">
+            <h3>heath</h3>
+            <p class="p-task" id="heath" value="test">0 task</p>
+            <div class="task heathc"></div>
+          </button>
+        </div>
+      </div>
+
+      <div class="container-timeline">
+        <ul id="task_list"></ul>
+      </div>
+    </main>
+    <a class="a1" href="search.html">search</a>
+    <script src="home.js"></script>
+  </body>
+</html>

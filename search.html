@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="search.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <section class="searchbar">
+        <a href="home.html"><img src="asse/arrow-left.png" class="img1" /></a>
+        <button class="remove_btn" onclick="remove_btn()">
+          <img src="asse/close.png" class="close" />
+        </button>
+        <input type="text" class="search" id="search" placeholder="Search" />
+        <button class="btn" id="serach_button" onclick="search_items() ">
+          <img src="asse/search.png" id="searchicon" class="searchicon" />
+        </button>
+      </section>
+
+      <div class="searchlist">
+        <ul id="task_list">
+          <li></li>
+          <!-- <li>
+            <div>
+              <img src="asse/edit.png" class="edit in" />
+              <h3 class="in">Do yoga</h3>
+              <p class="pl">15 minutes</p>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </main>
+    <script src="search.js"></script>
+  </body>
+</html>
